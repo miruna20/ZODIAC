@@ -1,0 +1,35 @@
+# --- Run outputs (never committed) ---
+# logs/ = training checkpoints + tensorboard (train.py logs_dir)
+# results/ = inference outputs (completed meshes, smoke + full runs)
+logs/
+results/
+outputs/
+
+# --- Large / binary artifacts ---
+*.pth
+*.pkl
+
+# Note: data/ and checkpoints/ are intentionally NOT listed here — each has its own
+# .gitignore that ignores the bulk while keeping its README (+ the one example sample).
+
+# --- Compiled native/build artifacts ---
+build/
+objs/
+*.so
+*.o
+*.d
+*.a
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+
+# --- Personal / not-for-release ---
+# Smoke tests (configs + scripts) are for local pipeline checks only.
+configs/smoke/
+scripts/smoke/

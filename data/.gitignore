@@ -1,0 +1,22 @@
+# The datasets are downloaded from LRZ Sync+Share (see README.md) and are patient-/
+# phantom-derived and large -> they are NOT tracked in git.
+#
+# We keep tracked only:
+#   - this .gitignore
+#   - README.md (how to download + the data layout)
+#   - ONE example sample folder (spines_phantoms/dataset_256/Phantom1) so the folder
+#     is not empty and the per-sample structure is visible in the repo.
+
+# Ignore everything at the top level of data/ ...
+/*
+
+# ... but keep these:
+!/.gitignore
+!/README.md
+
+# Keep the single Phantom1 example (un-ignore each parent, re-ignore its siblings):
+!/spines_phantoms/
+/spines_phantoms/*
+!/spines_phantoms/dataset_256/
+/spines_phantoms/dataset_256/*
+!/spines_phantoms/dataset_256/Phantom1/

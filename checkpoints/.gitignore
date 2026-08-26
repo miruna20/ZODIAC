@@ -1,0 +1,10 @@
+# Trained checkpoints are hosted on LRZ Sync+Share (see README.md / ../README.md).
+# The diffusion checkpoints are ~385 MB each (over GitHub's 100 MB file limit), so
+# nothing under checkpoints/ is tracked in git except this file and the README.
+
+# Ignore everything ...
+/*
+
+# ... except:
+!/.gitignore
+!/README.md
