@@ -11,6 +11,7 @@ trimesh
 omegaconf
 tensorboard
 numpy
+pyrr
 plyfile
 scikit-image
 wget

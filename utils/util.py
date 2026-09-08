@@ -11,7 +11,6 @@ import argparse
 import random
 import pyrr
 import matplotlib.pyplot as plt
-import pyvista as pv
 
 VIT_FEATURE_CHANNEL = 1280
 VIT_PATCH_NUMBER = 256
@@ -588,6 +587,8 @@ def render_voxel_scene(
     connection_voxels=None,
     title="Voxel Scene"
 ):
+    import pyvista as pv
+
     plotter = pv.Plotter(notebook=False, window_size=[800, 600])
 
     X, Y, Z = occupancy.shape
