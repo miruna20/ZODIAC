@@ -12,7 +12,7 @@ Miruna-Alexandra Gafencu<sup>1,2,3,\*</sup>, Vlad Bratulescu<sup>1,\*</sup>, Yor
 
 **ShapeMI @ MICCAI 2026** &nbsp;|&nbsp; [Paper](http://arxiv.org/abs/2608.24422)
 
-![teaser](figures/results_qualitative.png)
+<video src="https://github.com/user-attachments/assets/a528190d-b775-42ec-8d76-dd30e506941a" width="100%" controls autoplay loop muted></video>
 
 This repository publishes the code of the Paper Zero-shot Octree-based Diffusion for Anatomical Completion accepted at ShapeMI @ MICCAI 2026. 
 
@@ -312,6 +312,9 @@ On the same datasets from antropomorphic phantom and volunteer data we compare Z
 | Balgrist (difficult) | VW | TP-ODIAC *(sup.)* | 19.93 ± 17.49 | 0.211 ± 0.040 | 8.51 ± 4.57 |
 | Balgrist (difficult) | VW | $\textcolor{#1d4ed8}{ZODIAC}$ *(zero-shot)* | 16.38 ± 3.73 | 0.188 ± 0.016 | 7.67 ± 1.14 |
 | Balgrist (difficult) | VW | ZODIAC-clean *(abl.)* | 20.72 ± 2.94 | 0.176 ± 0.014 | 9.05 ± 0.85 |
+
+![Qualitative comparison](figures/results_qualitative.png)
+
 ---
 
 ## References
