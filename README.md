@@ -12,7 +12,7 @@ Miruna-Alexandra Gafencu<sup>1,2,3,\*</sup>, Vlad Bratulescu<sup>1,\*</sup>, Yor
 
 **ShapeMI @ MICCAI 2026** &nbsp;|&nbsp; [Paper](http://arxiv.org/abs/2608.24422)
 
-<video src="https://github.com/user-attachments/assets/a528190d-b775-42ec-8d76-dd30e506941a" width="100%" controls autoplay loop muted></video>
+![ZODIAC qualitative comparison](figures/URS36_D2_mesh_comparison_lateral.gif)
 
 This repository publishes the code of the Paper Zero-shot Octree-based Diffusion for Anatomical Completion accepted at ShapeMI @ MICCAI 2026. 
 
